@@ -18,6 +18,8 @@ app.get("/", function (req, res) {
   res.render("index", { error }); // відкриває html файл
 });
 
+
+
 console.log("server started");
 const start = async () => {
   try {
